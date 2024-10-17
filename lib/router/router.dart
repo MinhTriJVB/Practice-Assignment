@@ -2,6 +2,9 @@ import 'package:go_router/go_router.dart';
 import 'package:practice/presentation/home/home_screen.dart';
 import 'package:practice/presentation/practice_one/PracticeOneScreen.dart';
 
+import '../presentation/practice_two/practice_two_screen.dart';
+
+
 final router = GoRouter(
   initialLocation: HomeScreen.path,
   routes: [
@@ -18,6 +21,13 @@ final router = GoRouter(
       builder: (context, state) {
         return const PracticeOneScreen();
       },
-    )
+    ),
+    GoRoute(
+      path: PracticeTwoScreen.path,
+      name: PracticeTwoScreen.name,
+      builder: (context, state) {
+        return const PracticeTwoScreen();
+      },
+    ),
   ],
 );
