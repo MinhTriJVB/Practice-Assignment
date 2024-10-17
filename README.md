@@ -1,16 +1,14 @@
-# practice
+# Bài tập thực hành Intern Flutter
 
-A new Flutter project.
+Các bài tập thực hành intern flutter theo từng tuần
 
-## Getting Started
+## Overview
+Màn hình chính hiển thị các bài làm (ấn giữ để hiển thị ảnh demo)
 
-This project is a starting point for a Flutter application.
+<img src="Screenshot_1729147981.png" alt="Sample Image"  height="250">
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Bài 1
+Ui màn hình danh bạ cơ bản
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="Screenshot_1729148261.png" alt="Sample Image"  height="250">
