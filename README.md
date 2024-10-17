@@ -5,8 +5,8 @@ Các bài tập thực hành intern flutter theo từng tuần
 ## Overview
 Màn hình chính hiển thị các bài làm (ấn giữ để hiển thị ảnh demo)
 
-<img src="Screenshot_1729147981.png" alt="Sample Image"  height="250">
-
+<img src="Screenshot_1729147981.png" alt="Sample Image"  height="250"> 
+<img src="Screenshot_1729148381.png" alt="Sample Image"  height="250">
 
 ## Bài 1
 Ui màn hình danh bạ cơ bản
