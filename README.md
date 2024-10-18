@@ -35,3 +35,11 @@ UI màn hình App mua sắm cơ bản có kết hợp provider
   <img src="Screenshot_1729221535.png" alt="Sample Image" height="250"/>
   <img src="Screenshot_1729221546.png" alt="Sample Image" height="250"/>
 </p>
+
+## Bài 4
+Xây dựng form và xử lý validation.
+
+<p float="left">
+  <img src="pract4.png" alt="Sample Image" height="250"/>
+  <img src="Screenshot_1729226161.png" alt="Sample Image" height="250"/>
+</p>

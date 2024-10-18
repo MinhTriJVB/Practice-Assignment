@@ -3,6 +3,7 @@ import 'package:practice/presentation/home/home_screen.dart';
 import 'package:practice/presentation/practice_one/PracticeOneScreen.dart';
 import 'package:provider/provider.dart';
 
+import '../presentation/practice_four/practice_four_screen.dart';
 import '../presentation/practice_three/practice_three_screen.dart';
 import '../presentation/practice_three/provider/shopping_provider.dart';
 import '../presentation/practice_two/practice_two_screen.dart';
@@ -39,6 +40,13 @@ final router = GoRouter(
           create: (context) => ShoppingProvider(),
           child: const PracticeThreeScreen(),
         );
+      },
+    ),
+    GoRoute(
+      path: PracticeFourScreen.path,
+      name: PracticeFourScreen.name,
+      builder: (context, state) {
+        return PracticeFourScreen();
       },
     ),
   ],

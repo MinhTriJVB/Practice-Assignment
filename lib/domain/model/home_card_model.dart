@@ -1,3 +1,4 @@
+import 'package:practice/presentation/practice_four/practice_four_screen.dart';
 import 'package:practice/presentation/practice_one/PracticeOneScreen.dart';
 import 'package:practice/presentation/practice_two/practice_two_screen.dart';
 
@@ -30,5 +31,11 @@ final homeList = [
     description: 'Làm quen với cách quản lý trạng thái (State).',
     image: 'assets/images/pract3.png',
     destination: PracticeThreeScreen.name,
+  ),
+  HomeCardModel(
+    title: 'Bài thực hành 4',
+    description: 'Xây dựng form và xử lý validation.',
+    image: 'assets/images/pract4.png',
+    destination: PracticeFourScreen.name,
   ),
 ];
