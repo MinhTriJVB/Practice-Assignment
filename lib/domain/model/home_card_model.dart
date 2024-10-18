@@ -1,6 +1,8 @@
 import 'package:practice/presentation/practice_one/PracticeOneScreen.dart';
 import 'package:practice/presentation/practice_two/practice_two_screen.dart';
 
+import '../../presentation/practice_three/practice_three_screen.dart';
+
 class HomeCardModel {
   final String title;
   final String description;
@@ -22,5 +24,11 @@ final homeList = [
     description: 'Hiểu và triển khai điều hướng giữa các màn hình',
     image: 'assets/images/pract2.png',
     destination: PracticeTwoScreen.name,
+  ),
+  HomeCardModel(
+    title: 'Bài thực hành 3',
+    description: 'Làm quen với cách quản lý trạng thái (State).',
+    image: 'assets/images/pract3.png',
+    destination: PracticeThreeScreen.name,
   ),
 ];

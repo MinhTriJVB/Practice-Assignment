@@ -26,3 +26,12 @@ UI màn hình App mua sắm cơ bản có route 3 màn
   <img src="Screenshot_1729156034.png" alt="Sample Image" height="250"/>
   <img src="Screenshot_1729156039.png" alt="Sample Image" height="250"/>
 </p>
+
+## Bài 3
+UI màn hình App mua sắm cơ bản có kết hợp provider
+
+<p float="left">
+  <img src="pract3.png" alt="Sample Image" height="250"/>
+  <img src="Screenshot_1729221535.png" alt="Sample Image" height="250"/>
+  <img src="Screenshot_1729221546.png" alt="Sample Image" height="250"/>
+</p>

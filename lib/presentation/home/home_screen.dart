@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            HomeHeader(),
+            const HomeHeader(),
             20.h.spaceSize,
             HomeBody(
               cardList: homeList,

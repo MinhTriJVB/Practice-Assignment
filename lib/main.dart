@@ -3,8 +3,13 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:practice/router/router.dart';
 
-void main() {
+void main() async  {
+  await  _beforeRunApp();
   runApp(const MyApp());
+}
+
+Future<void> _beforeRunApp() async {
+  WidgetsFlutterBinding.ensureInitialized();
 }
 
 class MyApp extends StatelessWidget {
