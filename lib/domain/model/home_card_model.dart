@@ -2,6 +2,7 @@ import 'package:practice/presentation/practice_four/practice_four_screen.dart';
 import 'package:practice/presentation/practice_one/PracticeOneScreen.dart';
 import 'package:practice/presentation/practice_two/practice_two_screen.dart';
 
+import '../../presentation/practice_five/practice_five_screen.dart';
 import '../../presentation/practice_three/practice_three_screen.dart';
 
 class HomeCardModel {
@@ -37,5 +38,11 @@ final homeList = [
     description: 'Xây dựng form và xử lý validation.',
     image: 'assets/images/pract4.png',
     destination: PracticeFourScreen.name,
+  ),
+  HomeCardModel(
+    title: 'Bài thực hành 5',
+    description: 'Thao tác với API và Lưu trữ dữ liệu cục bộ',
+    image: 'assets/images/pract5.png',
+    destination: PracticeFiveScreen.name,
   ),
 ];

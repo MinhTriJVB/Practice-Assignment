@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:intl/intl.dart';
 
 String? enumToString(dynamic e) {
   if (e == null) {
@@ -76,7 +77,9 @@ extension SVGExtension on String {
 
   String get lottie => 'assets/lottie/$this.json';
 
-  String get png => 'assets/image/$this.png';
+  String get png => 'assets/images/$this.png';
+
+
 }
 
 extension ColorExtension on String {
@@ -441,4 +444,28 @@ extension TextExtension on String {
           ]),
     );
   }
+}
+
+String convertUrl(String url) {
+  if (url.startsWith('//')) {
+    return 'https:$url';
+  }
+  return url;
+}
+
+String fakeImagePath() {
+  return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmVq-OmHL5H_5P8b1k306pFddOe3049-il2A&s';
+}
+
+String formatToDayInWeek(String date, int index) {
+  String res = '';
+
+  if(index == 0) {
+    res = "Today";
+  } else {
+    DateTime dateTime = DateTime.parse(date);
+    res = DateFormat('EEEE').format(dateTime);
+  }
+
+  return res;
 }

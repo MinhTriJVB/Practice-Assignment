@@ -43,3 +43,12 @@ Xây dựng form và xử lý validation.
   <img src="pract4.png" alt="Sample Image" height="250"/>
   <img src="Screenshot_1729226161.png" alt="Sample Image" height="250"/>
 </p>
+
+## Bài 5
+Thao tác với API bằng dio và Lưu trữ dữ liệu cục bộ bằng shared_preferences.
+
+<p float="left">
+  <img src="Screenshot_1729503491.png" alt="Sample Image" height="250"/>
+  <img src="Screenshot_1729503496.png" alt="Sample Image" height="250"/>
+  <img src="Screenshot_1729503502.png" alt="Sample Image" height="250"/>
+</p>

@@ -1,8 +1,13 @@
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:practice/presentation/home/home_screen.dart';
 import 'package:practice/presentation/practice_one/PracticeOneScreen.dart';
 import 'package:provider/provider.dart';
 
+import '../application/weather/search_weather_cubit.dart';
+import '../application/weather/weather_bloc.dart';
+import '../presentation/practice_five/practice_five_screen.dart';
+import '../presentation/practice_five/practice_five_search_screen.dart';
 import '../presentation/practice_four/practice_four_screen.dart';
 import '../presentation/practice_three/practice_three_screen.dart';
 import '../presentation/practice_three/provider/shopping_provider.dart';
@@ -48,6 +53,32 @@ final router = GoRouter(
       builder: (context, state) {
         return PracticeFourScreen();
       },
+    ),
+    GoRoute(
+      path: PracticeFiveScreen.path,
+      name: PracticeFiveScreen.name,
+      builder: (context, state) {
+        return BlocProvider(
+          create: (context) =>
+          WeatherBloc()
+            ..add(
+              const WeatherEvent.getWeather(cityId: '2717932'),
+            ),
+          child: const PracticeFiveScreen(),
+        );
+      },
+      routes: [
+        GoRoute(
+          path: PracticeFiveSearchScreen.path,
+          name: PracticeFiveSearchScreen.name,
+          builder: (context, state) {
+            return BlocProvider(
+              create: (context) => SearchWeatherCubit(),
+              child: PracticeFiveSearchScreen(),
+            );
+          },
+        ),
+      ],
     ),
   ],
 );
